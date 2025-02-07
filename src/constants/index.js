@@ -22,7 +22,10 @@ import {
   sql,
   mysql,
   linux,
-  php
+  php,
+  gonoka,
+  nortorn,
+  wingbank
 } from "../assets";
 
 export const navLinks = [
@@ -120,57 +123,48 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Technical Speacialist",
+    company_name: "Wing Bank Plc",
+    icon: wingbank,
+    iconBg: "#ABCC3D",
+    date: "Apr 2021 - May 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Delivered comprehensive technical support for POS terminals, ensuring smooth operations for business processes",
+      "Collaborated with various teams to identify and resolve technical challenges for merchants, ensuring efficiency",
+      "Repaired and maintained POS terminals nationwide, ensuring both hardware and software operated reliably",
+      "Support technical issues sale team(Wcx x Merchant) to make sure it work smoothly when transaction or payments",
+      "TECHNOLOGY: Microsoft Office 365, BI Tool, Outlook..."
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    company_name: "Gonoka",
+    icon: gonoka,
+    iconBg: "#18499E",
+    date: "Jun 2023 - Jul 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Conducted comprehensive testing on web applications to identify and resolve critical issues, ensuring quality",
+      "Designed and developed interactive web applications using JavaScript, VueJS, and Tailwind CSS for better usability",
+      "Resolved technical issues promptly, ensuring minimal disruption to website performance and user satisfaction",
+      "TECHNOLOGY: VueJS, Linux"
+
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Full-Time Developer",
+    company_name: "Nortorn University",
+    icon: nortorn,
+    iconBg: "#383E56",
+    date: "Aug 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Lead the deployment of new systems for 3000 students and lecturers, ensuring seamless integration and usability",
+      "Enhanced the NU Staff System by developing new functionalities using modern frameworks like Vue3 and Laravel",
+      "Delivered technical support for students and lecturers, resolving issues efficiently to improve system usage",
+      "Reported the problem and fix issue if needed.",
+      "TECHNOLOGY: MySQL, PHP, Laravel, VueJS, Flutter, TailwindCss, Typescript, Linux, Figma..."
     ],
   },
+  
 ];
 
 const testimonials = [

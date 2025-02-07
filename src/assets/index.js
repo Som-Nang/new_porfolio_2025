@@ -32,6 +32,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import wingbank from "./company/wingbank.png";
+import gonoka from "./company/gonoka.png";
+import nortorn from "./company/nortorn.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -72,5 +75,8 @@ export {
   linux,
   sql,
   flutter,
-  vue
+  vue,
+  gonoka,
+  wingbank,
+  nortorn
 };
