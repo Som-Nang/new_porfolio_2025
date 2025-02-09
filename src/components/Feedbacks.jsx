@@ -21,23 +21,31 @@ const FeedbackCard = ({
     <p className='text-white font-black text-[48px]'>"</p>
 
     <div className='mt-1'>
-      <p className='text-white tracking-wider text-[18px]'>{testimonial}</p>
+      {/* original */}
+      {/* <p className='text-white tracking-wider text-[18px]'>{testimonial}</p> */} 
+      <div className="d-flex flex-col justify-center items-center">
+        <p className='text-white tracking-wider text-[18px] bg-gray-500 p-5 my-1 rounded-md'></p> 
+        <p className='text-white tracking-wider text-[18px] bg-gray-500 p-5 rounded-md'></p> 
+      </div>
 
       <div className='mt-7 flex justify-between items-center gap-1'>
         <div className='flex-1 flex flex-col'>
           <p className='text-white font-medium text-[16px]'>
-            <span className='blue-text-gradient'>@</span> {name}
+            {/* <span className='blue-text-gradient'>@</span> {name} */}
+            
           </p>
-          <p className='mt-1 text-secondary text-[12px]'>
+          <div className=' bg-gray-500 p-5 rounded-md'></div>
+          {/* <p className='mt-1 text-secondary text-[12px]'>
             {designation} of {company}
-          </p>
+          </p> */}
+           <div className=' bg-gray-500 p-5 rounded-md mt-2 w-1/2'></div>
         </div>
-
-        <img
+        <div className=' bg-gray-500 p-5 rounded-full  mt-2 w-10 h-10 ml-1'></div>
+        {/* <img
           src={image}
           alt={`feedback_by-${name}`}
           className='w-10 h-10 rounded-full object-cover'
-        />
+        /> */}
       </div>
     </div>
   </motion.div>

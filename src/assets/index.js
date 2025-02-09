@@ -5,6 +5,9 @@ import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import apk from "./apk.png";
+import covid19 from "./covid19.png";
+import github_user_finder from "./github_user_finder.png";
+import sport_news from "./sport_news.png";
 import live from "./live.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -86,5 +89,8 @@ export {
   nortorn,
   ai_assistant_app,
   apk,
-  e_assignment
+  e_assignment,
+  covid19,
+  github_user_finder,
+  sport_news
 };

@@ -49,6 +49,11 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         I'm a skilled software developer with experience in PHP Laravel, JavaScript, and expertise in frameworks like VueJS and Flutter for mobile development. I also have strong knowledge of SQL and MySQL for efficient database management. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
+        <br />
+        <span className="z-50 d-flex">
+          <a className="text-white text-md hover:text-blue-600 pr-2" href="https://www.linkedin.com/in/din-somnang/">LinkedIn</a></span>
+          <a className="text-white text-md hover:text-gray-600 px-2" href="https://www.linkedin.com/in/din-somnang/">GitHub</a>
+
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

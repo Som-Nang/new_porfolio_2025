@@ -27,7 +27,10 @@ import {
   nortorn,
   wingbank,
   ai_assistant_app,
-  e_assignment
+  e_assignment,
+  covid19,
+  github_user_finder,
+  sport_news
 } from "../assets";
 
 export const navLinks = [
@@ -213,6 +216,10 @@ const projects = [
         name: "MySQL",
         color: "green-text-gradient",
       },
+      {
+        name: "Figma",
+        color: "pink-text-gradient",
+      },
     ],
     image: nu_student_app,
     source_code_link: null,
@@ -238,7 +245,7 @@ const projects = [
     
     ],
     image: ai_assistant_app,
-    source_code_link: null,
+    source_code_link: "https://github.com/Som-Nang/ai_assistant_app_flutter.git",
     live_demo_link: null,
     apk_link: "link",
   },
@@ -257,7 +264,7 @@ const projects = [
       {
         name: "JQUERY",
         color: "green-text-gradient",
-      },
+      },  
     
     ],
     image: e_assignment,
@@ -265,6 +272,67 @@ const projects = [
     live_demo_link: 'https://somnangdin.vercel.app/pdf/e-learning.pdf',
     apk_link: null,
   },
+   {
+    name: "Sport-News Website",
+     description:"Contributed to the development of a sports news website, implementing new features and functionalities to enhance user experience. Conducted comprehensive testing to identify and resolve technical issues, ensuring optimal performance.",
+     tags: [
+      {
+        name: "Larave",
+        color: "pink-text-gradient",
+       },
+       {
+        name: "Vue JS",
+        color: "green-text-gradient",
+       },
+       {
+        name: "TaiwindCss",
+        color: "blue-text-gradient",
+       },
+       {
+        name: "SQL;",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: sport_news,
+    source_code_link: null,
+    live_demo_link: 'https://cns-tv.com/',
+    apk_link: null,
+  },
+   {
+    name: "Covide-19 Tracker",
+     description:"A web application that tracks the spread of COVID-19 worldwide, providing real-time data on the number of cases, recoveries, and deaths. Users can view statistics by country and region, as well as access information on prevention and treatment.",
+     tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "orange-text-gradient",
+      }  
+    
+    ],
+    image: covid19,
+    source_code_link: "https://github.com/Som-Nang/Covid-19_Tracker.git",
+    live_demo_link: 'https://covid-tracker-448e0.web.app/',
+    apk_link: null,
+  },
+   {
+    name: "Github User Finder",
+     description: "A web application that allows users to search for Github users and view their profiles, repositories, and other information. Users can also view a list of popular repositories and filter results by language.",
+     tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: github_user_finder,
+    source_code_link: "https://github.com/Som-Nang/Github-User-infoApp.git",
+    live_demo_link: 'https://github-user-info-app.netlify.app/',
+    apk_link: null,
+  },
+  
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
