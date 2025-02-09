@@ -262,7 +262,7 @@ const projects = [
     ],
     image: e_assignment,
     source_code_link: null,
-    live_demo_link: 'https://somnangdin.vercel.app/src/assets/pdf/e-learning.pdf',
+    live_demo_link: 'https://somnangdin.vercel.app/pdf/e-learning.pdf',
     apk_link: null,
   },
 ];
