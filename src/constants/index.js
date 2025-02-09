@@ -13,7 +13,7 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
+  nu_student_app,
   jobit,
   tripguide,
   laravel,
@@ -25,7 +25,9 @@ import {
   php,
   gonoka,
   nortorn,
-  wingbank
+  wingbank,
+  ai_assistant_app,
+  e_assignment
 } from "../assets";
 
 export const navLinks = [
@@ -196,67 +198,72 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "NU-Student App",
+    description:"A mobile application that allows students to access their grades, schedules, and other academic information, as well as receive notifications about upcoming events and deadlines.",
     tags: [
       {
-        name: "react",
+        name: "Flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
+        name: "Laravel",
         color: "pink-text-gradient",
       },
+      {
+        name: "MySQL",
+        color: "green-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: nu_student_app,
+    source_code_link: null,
+    live_demo_link: null,
+    apk_link: null,
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "AI Assistant App",
+    description:" A mobile application that uses artificial intelligence to assist human with AI-Chat Bot, AI translator and Text to image promt generating.",
     tags: [
       {
-        name: "react",
+        name: "Flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
+        name: "Gemini",
+        color: "orange-text-gradient",
       },
       {
-        name: "scss",
+        name: "Appwrite",
         color: "pink-text-gradient",
       },
+    
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: ai_assistant_app,
+    source_code_link: null,
+    live_demo_link: null,
+    apk_link: "link",
   },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
+   {
+    name: "NU-ELearning System",
+     description: "The E-Learning Management System is an all-in-one tool to support Teachers-Student. It simplifies attendance tracking, sharing learning materials, and assigning Homework, Assignments, and Midterms. The system also auto-creates student groups for collaborative work and provides an interactive dashboard for real-time insights, helping teachers manage their classes more effectively.",
+     tags: [
       {
-        name: "nextjs",
+        name: "PHP",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: "MYSQL",
+        color: "orange-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "JQUERY",
+        color: "green-text-gradient",
       },
+    
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: e_assignment,
+    source_code_link: null,
+    live_demo_link: 'https://somnangdin.vercel.app/src/assets/pdf/e-learning.pdf',
+    apk_link: null,
   },
 ];
 

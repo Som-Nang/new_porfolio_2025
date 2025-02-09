@@ -4,6 +4,8 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import apk from "./apk.png";
+import live from "./live.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -26,6 +28,8 @@ import mysql from "./tech/mysql.png"
 import linux from "./tech/linux.png"
 import sql from "./tech/sql.png"
 import flutter from "./tech/flutter.png"
+import ai_assistant_app from "./ai_assistant_app.png"
+import e_assignment from "./eassignment.png"
 import vue from "./tech/vue.png"
 
 import meta from "./company/meta.png";
@@ -36,7 +40,7 @@ import wingbank from "./company/wingbank.png";
 import gonoka from "./company/gonoka.png";
 import nortorn from "./company/nortorn.png";
 
-import carrent from "./carrent.png";
+import nu_student_app from "./nu_student_app.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -47,6 +51,7 @@ export {
   mobile,
   web,
   github,
+  live,
   menu,
   close,
   css,
@@ -66,7 +71,7 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
+  nu_student_app,
   jobit,
   tripguide,
   laravel,
@@ -78,5 +83,8 @@ export {
   vue,
   gonoka,
   wingbank,
-  nortorn
+  nortorn,
+  ai_assistant_app,
+  apk,
+  e_assignment
 };
