@@ -7,6 +7,10 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import { Linkedin } from 'lucide-react';
+import { Github } from 'lucide-react';
+
+
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
@@ -50,10 +54,15 @@ const About = () => {
       >
         I'm a skilled software developer with experience in PHP Laravel, JavaScript, and expertise in frameworks like VueJS and Flutter for mobile development. I also have strong knowledge of SQL and MySQL for efficient database management. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
         <br />
-        <span className="z-50 d-flex">
-          <a className="text-white text-md hover:text-blue-600 pr-2" href="https://www.linkedin.com/in/din-somnang/">LinkedIn</a></span>
-          <a className="text-white text-md hover:text-gray-600 px-2" href="https://www.linkedin.com/in/din-somnang/">GitHub</a>
-
+        <div className="flex gap-4 mt-2 font-medium">
+          <a className="flex gap-2 text-white text-md items-center" href="https://www.linkedin.com/in/din-somnang/">
+            <div className="bg-blue-800 rounded-full w-10 h-10 flex justify-center items-center"> <Linkedin /></div>
+            <span className="hover:text-blue-600">LinkedIn</span></a>
+          <a className="flex gap-2 text-white text-md items-center" href="https://github.com/Som-Nang">
+            <div className="bg-gray-800 rounded-full w-10 h-10 flex justify-center items-center"><Github /></div>
+            <span className="hover:text-gray-600">GitHub</span>
+          </a>
+        </div>
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
