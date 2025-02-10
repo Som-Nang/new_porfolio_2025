@@ -33,6 +33,7 @@ import sql from "./tech/sql.png"
 import flutter from "./tech/flutter.png"
 import ai_assistant_app from "./ai_assistant_app.png"
 import e_assignment from "./eassignment.png"
+import master_student from "./master_student.png"
 import vue from "./tech/vue.png"
 
 import meta from "./company/meta.png";
@@ -92,5 +93,6 @@ export {
   e_assignment,
   covid19,
   github_user_finder,
-  sport_news
+  sport_news,
+  master_student
 };

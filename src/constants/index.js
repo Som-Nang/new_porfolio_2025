@@ -30,7 +30,8 @@ import {
   e_assignment,
   covid19,
   github_user_finder,
-  sport_news
+  sport_news,
+  master_student
 } from "../assets";
 
 export const navLinks = [
@@ -251,7 +252,7 @@ const projects = [
   },
    {
     name: "NU-ELearning System",
-     description: "The E-Learning Management System is an all-in-one tool to support Teachers-Student. It simplifies attendance tracking, sharing learning materials, and assigning Homework, Assignments, and Midterms. The system also auto-creates student groups for collaborative work and provides an interactive dashboard for real-time insights, helping teachers manage their classes more effectively.",
+     description: "The E-Learning Management System is an all-in-one tool to support Teachers-Student. It simplifies attendance tracking, sharing learning materials, and assigning Homework, Assignments, and Midterms. The system also auto-creates student groups for assignment.",
      tags: [
       {
         name: "PHP",
@@ -296,6 +297,32 @@ const projects = [
     image: sport_news,
     source_code_link: null,
     live_demo_link: 'https://cns-tv.com/',
+    apk_link: null,
+  },
+  {
+    name: "NU Master Student Portal",
+     description:"Is a Web Application for Grauduated Student at Nortorn University. It show student detail information include Academic, Subject, Payment History, Online Examintion and Online Registration",
+     tags: [
+      {
+        name: "Larave",
+        color: "pink-text-gradient",
+       },
+       {
+        name: "Vue JS",
+        color: "green-text-gradient",
+       },
+       {
+        name: "TaiwindCss",
+        color: "blue-text-gradient",
+       },
+       {
+        name: "SQL;",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: master_student,
+    source_code_link: null,
+    live_demo_link: null,
     apk_link: null,
   },
    {
