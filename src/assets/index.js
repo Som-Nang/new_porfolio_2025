@@ -25,16 +25,16 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import laravel from "./tech/laravel.png"
-import php from "./tech/php.png"
-import mysql from "./tech/mysql.png"
-import linux from "./tech/linux.png"
-import sql from "./tech/sql.png"
-import flutter from "./tech/flutter.png"
-import ai_assistant_app from "./ai_assistant_app.png"
-import e_assignment from "./eassignment.png"
-import master_student from "./master_student.png"
-import vue from "./tech/vue.png"
+import laravel from "./tech/laravel.png";
+import php from "./tech/php.png";
+import mysql from "./tech/mysql.png";
+import linux from "./tech/linux.png";
+import sql from "./tech/sql.png";
+import flutter from "./tech/flutter.png";
+import ai_assistant_app from "./ai_assistant_app.png";
+import e_assignment from "./eassignment.png";
+import master_student from "./master_student.png";
+import vue from "./tech/vue.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -43,7 +43,7 @@ import tesla from "./company/tesla.png";
 import wingbank from "./company/wingbank.png";
 import gonoka from "./company/gonoka.png";
 import nortorn from "./company/nortorn.png";
-
+import pengHuoth from "./company/pengHuoth.png";
 import nu_student_app from "./nu_student_app.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -87,6 +87,7 @@ export {
   vue,
   gonoka,
   wingbank,
+  pengHuoth,
   nortorn,
   ai_assistant_app,
   apk,
@@ -94,5 +95,5 @@ export {
   covid19,
   github_user_finder,
   sport_news,
-  master_student
+  master_student,
 };
