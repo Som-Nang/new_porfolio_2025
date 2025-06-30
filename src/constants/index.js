@@ -33,6 +33,7 @@ import {
   github_user_finder,
   sport_news,
   master_student,
+  woori,
 } from "../assets";
 
 export const navLinks = [
@@ -175,7 +176,7 @@ const experiences = [
     company_name: "Peng Houth Group",
     icon: pengHuoth,
     iconBg: "#FDFAF6",
-    date: "April 2024 - Present",
+    date: "April 2025 - June 2025",
     points: [
       // "Developed and maintained main PH system, ensuring high performance and reliability for users",
       // "Collaborated with cross-functional teams to design and implement new features, enhancing user experience",
@@ -184,6 +185,16 @@ const experiences = [
       "TECHNOLOGY: SQL Server, C#, ASP.NET...",
     ],
   },
+   {
+    title: "Assistant Manager, System Development",
+    company_name: "Woori Bank Cambodia",
+    icon: woori,
+    iconBg: "#FDFAF6",
+    date: "July 2025 - Present",
+    points: [
+    ],
+  },
+
 ];
 
 const testimonials = [

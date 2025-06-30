@@ -41,6 +41,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import wingbank from "./company/wingbank.png";
+import woori from "./company/woori.png";
 import gonoka from "./company/gonoka.png";
 import nortorn from "./company/nortorn.png";
 import pengHuoth from "./company/pengHuoth.png";
@@ -96,4 +97,5 @@ export {
   github_user_finder,
   sport_news,
   master_student,
+  woori,
 };
